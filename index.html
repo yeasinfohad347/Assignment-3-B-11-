@@ -10,7 +10,7 @@
   <!-- Font-family -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
   <!-- DaisyUI link -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -45,10 +45,10 @@
         </div>
         <!-- menu section -->
         <div class="max-sm:hidden px-3">
-          <ul class="flex  justify-center items-center gap-4  ">
-            <li><a href="">Find a pet</a></li>
-            <li><a href="">Breeds</a></li>
-            <li><a href="">Contact us</a></li>
+          <ul class="flex  justify-center items-center gap-4 text-xl font-sora ">
+            <li><a class=" " href="">Find a pet</a></li>
+            <li><a class="" href="">Breeds</a></li>
+            <li><a class="" href="">Contact us</a></li>
           </ul>
         </div>
         <!-- icon and button section -->
@@ -63,21 +63,104 @@
         </div>
       </div>
     </nav>
+
+
     <!-- banner section -->
+
+
     <div class="max-w-screen-xl mx-auto md:relative px-6 py-2 md:px-8 md:py-5 flex flex-col-reverse ">
       <img class="" src="Assets/cat-2-big.png " alt="">
       <!-- banner content -->
       <div class="md:absolute space-y-5  md:top-10">
-        <h2 class="text-3xl md:text-5xl">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h2>
-        <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for your <br> furry friends. Shop now and make tails wag with joy!</p>
+        <h2 class="text-3xl md:text-5xl ">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h2>
+        <p class="text-xl text-gray-600 font-sora">Discover a world of treats, toys, and essentials handpicked for your <br> furry friends. Shop
+          now and make tails wag with joy!</p>
         <button class="px-5 py-3 bg-pet-primary rounded-lg">Find a pet</button>
       </div>
     </div>
+
+
     <!-- Browse by catagories -->
-    <!-- <div>
-      <h2>Browse By Categories</h2>
-      <div></div>
-    </div> -->
+
+
+    <div class="max-w-screen-xl mx-auto md:relative px-6 py-2 md:px-8 md:py-5">
+      <h2 class="my-8 lg:my-14 text-4xl">Browse By Categories</h2>
+      <div class="grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-4 mb-16">
+        <!-- card-design -->
+         <!-- card-1 -->
+        <div class="py-9 bg-pet-secondary rounded-lg h-56 flex ">
+          <div class="mx-auto space-y-4 ">
+            <div class="rounded-full bg-white h-20 w-20 flex justify-center items-center ">
+              <img class="h-11" src="Assets/dog-cartoon.png" alt="">
+            </div>
+            <div class="text-center">
+              <h5>Dog</h5>
+              <small>3 items</small>
+            </div>
+          </div>
+        </div>
+        <!--card-2 -->
+        <div class="py-9 bg-pet-secondary rounded-lg h-56 flex ">
+          <div class="mx-auto space-y-4">
+            <div class="rounded-full bg-white h-20 w-20 flex justify-center items-center ">
+              <img class="h-11" src="Assets/fish-cartoon.png" alt="">
+            </div>
+            <div class="text-center">
+              <h5>Fish</h5>
+              <small>3 items</small>
+            </div>
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="py-9 bg-pet-secondary rounded-lg h-56 flex ">
+          <div class="mx-auto space-y-4">
+            <div class="rounded-full bg-white h-20 w-20 flex justify-center items-center ">
+              <img class="h-11" src="Assets/cat-cartoon.png" alt="">
+            </div>
+            <div class="text-center">
+              <h5>Cat</h5>
+              <small>3 items</small>
+            </div>
+          </div>
+        </div>
+        <!-- card-4 -->
+        <div class="py-9 bg-pet-secondary rounded-lg h-56 flex ">
+          <div class="mx-auto space-y-4">
+            <div class="rounded-full bg-white h-20 w-20 flex justify-center items-center ">
+              <img class="h-11" src="Assets/bird-cartoon.png" alt="">
+            </div>
+            <div class="text-center">
+              <h5>Birds</h5>
+              <small>3 items</small>
+            </div>
+          </div>
+        </div>
+        <!-- card-5 -->
+        <div class="py-9 bg-pet-secondary rounded-lg h-56 flex ">
+          <div class="mx-auto space-y-4">
+            <div class="rounded-full bg-white h-20 w-20 flex justify-center items-center ">
+              <img class="h-11" src="Assets/mouse-cartoon.png" alt="">
+            </div>
+            <div class="text-center">
+              <h5>Small pet</h5>
+              <small>3 items</small>
+            </div>
+          </div>
+        </div>
+        <!-- card-6 -->
+        <div class="py-9 bg-pet-secondary rounded-lg h-56 flex ">
+          <div class="mx-auto space-y-4">
+            <div class="rounded-full bg-white h-20 w-20 flex justify-center items-center ">
+              <img class="h-11" src="Assets/rabbit-cartoon.png" alt="">
+            </div>
+            <div class="text-center">
+              <h5>Rabbit</h5>
+              <small>3 items</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </header>
 
