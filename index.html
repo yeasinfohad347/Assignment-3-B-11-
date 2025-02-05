@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pat shop</title>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/a5586437cc.js" crossorigin="anonymous"></script>
+  <!-- Font-family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+  <!-- DaisyUI link -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- link with styles -->
+  <link rel="stylesheet" href="styles/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'bg-color': '#FFF9F4',
+            'pet-primary': '#FFDC26',
+            'pet-secondary': '#F9DF8A',
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body>
-    
+
+<body class="adlam-regular">
+  <!-- header section -->
+  <header>
+    <!-- nav-section -->
+    <nav class="bg-bg-color">
+      <div class="max-w-screen-xl mx-auto px-6 py-2 md:px-8 md:py-5 flex justify-between items-center">
+        <!-- logo section -->
+        <div class="flex justify-center items-center gap-2 ">
+          <img src="Assets/logo-header.png" alt="">
+          <h2 class="max-sm:hidden text-2xl">Browse<span class="text-pet-primary">4</span>Pets</h2>
+        </div>
+        <!-- menu section -->
+        <div class="max-sm:hidden px-3">
+          <ul class="flex  justify-center items-center gap-4  ">
+            <li><a href="">Find a pet</a></li>
+            <li><a href="">Breeds</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+        <!-- icon and button section -->
+        <div class="flex  justify-center items-center gap-3 max-sm:hidden">
+          <i class="fa-regular fa-bell text-2xl"></i>
+          <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+          <button class=" px-3 py-2 border-solid border-2 border-pet-primary rounded-lg">Login</button>
+          <button class="px-5 py-3 bg-pet-primary rounded-lg">Register</button>
+        </div>
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section -->
+    <div class="max-w-screen-xl mx-auto relative px-6 py-2 md:px-8 md:py-5 max-sm:top-56">
+      <img class="" src="Assets/cat-2-big.png " alt="">
+      <!-- banner content -->
+      <div class="absolute space-y-5 bottom-24 md:top-10">
+        <h2 class="text-3xl md:text-5xl">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h2>
+        <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for your <br> furry friends. Shop now and make tails wag with joy!</p>
+        <button class="px-5 py-3 bg-pet-primary rounded-lg">Find a pet</button>
+      </div>
+    </div>
+    <!-- Browse by catagories -->
+    <!-- <div>
+      <h2>Browse By Categories</h2>
+      <div></div>
+    </div> -->
+
+  </header>
+
+
 </body>
+
 </html>
